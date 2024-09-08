@@ -1,4 +1,4 @@
 # SeniorDesign2024
 
-## Group memebers
+## Group members
 Daniel Chandler, Elbthel Zeleke, Salma Mohammad, Quoc Luong 
