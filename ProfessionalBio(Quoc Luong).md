@@ -1,0 +1,34 @@
+# Professional Biography
+
+## Contact Information
+**Name:** Quoc Luong
+**Email:** luongqc@mail.uc.edu
+**GitHub:** [https://github.com/elbthelzeleke](https://github.com/walkluong)
+
+## Co-op Work Experiences
+
+## Work Experience
+
+### Project Management Co-op  
+**EMCOR**, Cincinnati, Ohio  
+_August 2022 – December 2022_  
+- Developed project plans, schedules, and budgets to ensure projects are delivered on time and within budget  
+- Tracked project progress, providing regular status updates, and reports to stakeholders  
+
+### Web Development  
+**Duc Loi Auto**, Dak Lak, Vietnam  
+_September 2020 – December 2020_  
+- Maintained the company website to ensure there were no bugs or errors  
+- Built user interfaces to make it more consistent and visually attractive  
+- Updated the website by adding more functional features  
+
+### Desk Assistant  
+**Scioto Hall**, Cincinnati, Ohio  
+_May 2019 – August 2019_  
+- Assisted freshmen with move-in, checked in and out mail delivery  
+- Directed communications systems  
+- Handled complaints and concerns of residents  
+- Answered inquiries about the dorm and provided directions to places on campus
+
+
+## Project Sought
