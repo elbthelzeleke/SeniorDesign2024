@@ -3,7 +3,7 @@
 ## Contact Information
 **Name:** Quoc Luong
 **Email:** luongqc@mail.uc.edu
-**GitHub:** [https://github.com/elbthelzeleke](https://github.com/walkluong)
+**GitHub:** https://github.com/walkluong
 
 ## Co-op Work Experiences
 
@@ -30,5 +30,14 @@ _May 2019 – August 2019_
 - Handled complaints and concerns of residents  
 - Answered inquiries about the dorm and provided directions to places on campus
 
+## Skills
+
+- **Technical:** Python (Django), C/C++, HTML/CSS, Excel  
+- **Language:** Bilingual in Vietnamese and English
+
 
 ## Project Sought
+I am open to any projects because I want to learn new things and new skills. There are some fields that I am very interested in such as:
+- Artificial Intelligence 
+- Website Development
+- Application Design
