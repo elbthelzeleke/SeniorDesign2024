@@ -9,6 +9,13 @@
 
 ## Work Experience
 
+### Process Control Engineering  
+**Cenovus**, Lima, Ohio  
+_September 2023 – December 2024_  
+- Managed and maintained virtual machines within the development network, optimizing resources and ensuring seamless operation for development teams  
+- Spent extensive time working on the company’s server network, performing regular maintenance, troubleshooting issues
+- Ensured all company machines were consistently updated with the latest software versions, enhancing system security and performance
+
 ### Project Management Co-op  
 **EMCOR**, Cincinnati, Ohio  
 _August 2022 – December 2022_  
