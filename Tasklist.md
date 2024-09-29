@@ -6,17 +6,17 @@
 5.	Develop the voice assistant integration for natural user interaction and simplified control. - Salma Mohammad
 6.	Design real-time notification system for alerts on important events within the smart home. - Salma Mohammad
 7.	Test the customizable UI across different user profiles to ensure an intuitive user experience. (Quoc Luong)
-8.	Develop VR component for the immersive, interactive experience using 3D models of a home.
-9.	Research and integrate machine learning algorithms for personalized recommendations based on user behavior.
+8.	Develop VR component for the immersive, interactive experience using 3D models of a home. (Daniel Chandler)
+9.	Research and integrate machine learning algorithms for personalized recommendations based on user behavior.(Daniel Chandler)
 10.	Test the voice assistant functionality to ensure reliable and accurate responses. (Quoc Luong)
-11.	Validate the performance of automation routines to ensure they run smoothly across different user profiles.
+11.	Validate the performance of automation routines to ensure they run smoothly across different user profiles.(Daniel Chandler)
 12.	Refine the UI based on usability feedback to optimize for ease of use and personalization. - Salma Mohammad
 13.	Test system compatibility across various smart home devices and platforms. (Quoc Luong)
-14.	Validate real-time notifications system to ensure timely and relevant alerts.
-15.	Research accessibility features to ensure the system is inclusive for all users.
+14.	Validate real-time notifications system to ensure timely and relevant alerts.(Daniel Chandler)
+15.	Research accessibility features to ensure the system is inclusive for all users.(Daniel Chandler)
 16.	Obtain user feedback through testing and refine features accordingly. (Quoc Luong)
-17.	Document the final project implementation and provide user guidelines.
-18.	Prepare and present the project demo showcasing all major features, including voice assistant and VR integration.
+17.	Document the final project implementation and provide user guidelines.(Daniel Chandler)
+18.	Prepare and present the project demo showcasing all major features, including voice assistant and VR integration.(Daniel Chandler)
 19.	Create backend services for storing and updating user profiles and device states:- Elbthel Zeleke
 20.	Develop security protocols for user data and smart home device control:- Elbthel Zeleke
 21.	Integrate the system with external APIs for device communication and data exchange:- Elbthel Zeleke
