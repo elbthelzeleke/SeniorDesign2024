@@ -1,3 +1,4 @@
+## Task List
 1.	Research user profile factors such as age, pets, family size, occupation, and tech fluency to define customization parameters.
 2.	Design the customizable UI to accommodate various user profiles and ensure adaptability using Figma Sketch.
 3.	Develop the central dashboard for monitoring and controlling connected smart devices.
