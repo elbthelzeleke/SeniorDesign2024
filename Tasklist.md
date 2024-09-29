@@ -17,10 +17,9 @@
 16.	Obtain user feedback through testing and refine features accordingly.
 17.	Document the final project implementation and provide user guidelines.
 18.	Prepare and present the project demo showcasing all major features, including voice assistant and VR integration.
-**Assigned to Elbthel Zeleke:**
-19.	Create backend services for storing and updating user profiles and device states.
-20.	Develop security protocols for user data and smart home device control.
-21.	Integrate the system with external APIs for device communication and data exchange.
-22.	Design and develop user profile management tools for easy updates and customizations.
-23.	Document user requirements and the technical specifications of the smart home interface.
-24.	Investigate automation routines based on daily user activities and preferences for improved efficiency.
+19.	Create backend services for storing and updating user profiles and device states:- Elbthel Zeleke
+20.	Develop security protocols for user data and smart home device control:- Elbthel Zeleke
+21.	Integrate the system with external APIs for device communication and data exchange:- Elbthel Zeleke
+22.	Design and develop user profile management tools for easy updates and customizations:- Elbthel Zeleke
+23.	Document user requirements and the technical specifications of the smart home interface:- Elbthel Zeleke
+24.	Investigate automation routines based on daily user activities and preferences for improved efficiency:- Elbthel Zeleke
