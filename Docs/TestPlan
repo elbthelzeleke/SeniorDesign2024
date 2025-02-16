@@ -1,0 +1,140 @@
+Overall Test Plan Strategies
+To ensure the reliability, usability, and performance of our Smart Home Control Interface, we will employ a variety of testing strategies, including functional, integration, blackbox, whitebox, performance, and boundary testing. The testing process will validate core functionalities such as user profile customization, device control, automation routines, and voice assistant interactions across different user types. For functional testing, we will verify that all menu options, UI elements, and system actions behave according to design specifications. We will conduct blackbox testing to assess system behavior from a user’s perspective, ensuring that inputs result in expected outputs without needing knowledge of the internal code. We will also perform integration testing to confirm seamless communication between the front-end interface, backend services, and external APIs. Boundary testing will be conducted to examine system behavior under edge conditions, such as setting extreme automation schedules or testing accessibility features for elderly users. For security and privacy, we will simulate potential vulnerabilities to ensure robust encryption, authentication, and compliance with GDPR and CCPA regulations. Lastly, performance testing will assess system responsiveness, efficiency, and scalability when handling multiple smart devices and user interactions. By incorporating these testing methodologies, we aim to ensure that our Smart Home Control Interface provides a seamless, intuitive, and secure experience for all users.
+
+Test Case Descriptions
+1. Accessibility - Enlarged Text for Low Vision Users
+Test Case ID: UI-ACC-01
+Purpose: Verify that users with visual impairments can read text easily.
+Description: When a user reports a visual impairment, the UI should automatically enlarge text.
+Inputs: Select "Visual Impairment" in accessibility settings.
+Expected Output: All text increases in size by at least 150%.
+Case Indication: Normal
+Test Type: Blackbox
+Functional/Performance: Functional
+Unit/Integration: Unit
+
+2. Accessibility - High Contrast Mode
+Test Case ID: UI-ACC-02
+Purpose: Ensure that users with low vision can enable high contrast mode for better readability.
+Description: The UI should switch to high-contrast colors when enabled.
+Inputs: Toggle "High Contrast Mode" in accessibility settings.
+Expected Output: Dark background, white/yellow text, and high-contrast UI elements.
+Case Indication: Normal
+Test Type: Blackbox
+Functional/Performance: Functional
+Unit/Integration: Unit
+
+3. Simplified Menu for Low Tech Fluency Users
+Test Case ID: UI-SIMP-01
+Purpose: Validate that users unfamiliar with technology see a simplified UI.
+Description: When "Simplified UI" mode is enabled, non-essential options should be hidden.
+Inputs: Enable "Simplified UI" mode.
+Expected Output: Only essential buttons (e.g., "Turn Lights On/Off") are visible; advanced settings are hidden.
+Case Indication: Normal
+Test Type: Blackbox
+Functional/Performance: Functional
+Unit/Integration: Integration
+
+4. Visual Alerts for Low-Hearing Users - Doorbell Notification
+Test Case ID: UI-VIS-01
+Purpose: Ensure users with hearing impairments receive visual alerts for doorbell notifications.
+Description: When the doorbell rings, a visual notification should appear.
+Inputs: Press the "Ring Doorbell" button.
+Expected Output: A large, blinking notification appears on the screen.
+Case Indication: Normal
+Test Type: Blackbox
+Functional/Performance: Functional
+Unit/Integration: Unit
+
+5. Visual Alerts for Low-Hearing Users - Alarm Notification
+Test Case ID: UI-VIS-02
+Purpose: Ensure alarms (e.g., fire alarm, security alarm) include visual notifications.
+Description: When an alarm is triggered, a flashing red warning appears on the UI.
+Inputs: Simulate an alarm event.
+Expected Output: A flashing red screen warning with clear instructions.
+Case Indication: Normal
+Test Type: Blackbox
+Functional/Performance: Functional
+Unit/Integration: Unit
+
+6. Performance - Response Time for UI Actions
+Test Case ID: UI-PERF-01
+Purpose: Ensure the UI responds quickly to user actions.
+Description: Measure response time when turning lights on/off.
+Inputs: Click the "Turn Lights On" button.
+Expected Output: Light turns on within 1 second.
+Case Indication: Boundary
+Test Type: Blackbox
+Functional/Performance: Performance
+Unit/Integration: Integration
+
+7. Edge Case - Multiple Accessibility Features Enabled
+Test Case ID: UI-EDGE-01
+Purpose: Ensure the UI remains usable when multiple accessibility settings are enabled.
+Description: Turn on High Contrast Mode, Large Text, and Simplified UI together.
+Inputs: Enable all accessibility options at once.
+Expected Output: The UI remains clear, buttons remain accessible.
+Case Indication: Boundary
+Test Type: Blackbox
+Functional/Performance: Functional
+Unit/Integration: Integration
+
+8. Button Press Accuracy for Motor Disabilities
+Test Case ID: UI-BTN-01
+Purpose: Ensure that buttons are large enough for users with motor disabilities.
+Description: Check button hitbox size in accessibility mode.
+Inputs: Attempt to press each button from different angles.
+Expected Output: Buttons should be easy to click without accidental mispresses.
+Case Indication: Boundary
+Test Type: Blackbox
+Functional/Performance: Functional
+Unit/Integration: Unit
+
+9. Error Handling - Incorrect PIN Entry for Security System
+Test Case ID: UI-ERR-01
+Purpose: Ensure the system handles incorrect PIN entries securely.
+Description: Test behavior when entering an incorrect PIN multiple times.
+Inputs: Enter an incorrect PIN three times.
+Expected Output: After three incorrect attempts, an alert is triggered, and UI prompts for identity verification.
+Case Indication: Abnormal
+Test Type: Blackbox
+Functional/Performance: Functional
+Unit/Integration: Unit
+
+10. Error Handling - Unavailable Internet Connection
+Test Case ID: UI-ERR-02
+Purpose: Ensure the UI notifies users when there is no internet connection.
+Description: The app should alert users when the connection is lost.
+Inputs: Disable the internet connection.
+Expected Output: A pop-up message appears: "No internet connection. Some features may be unavailable."
+Case Indication: Abnormal
+Test Type: Blackbox
+Functional/Performance: Functional
+Unit/Integration: Integration
+
+
+
+
+
+
+
+
+
+Test Case Matrix
+
+### Test Case Matrix  
+
+| **Test Case ID**  | **Case Indication** | **Test Type** | **Functional/Performance** | **Unit/Integration** |
+|-------------------|--------------------|--------------|--------------------------|----------------------|
+| UI-ACC-01 (Enlarged Text for Low Vision Users) | Normal | Blackbox | Functional | Unit |
+| UI-ACC-02 (High Contrast Mode) | Normal | Blackbox | Functional | Unit |
+| UI-SIMP-01 (Simplified UI for Low Tech Fluency Users) | Normal | Blackbox | Functional | Integration |
+| UI-VIS-01 (Visual Alert for Doorbell) | Normal | Blackbox | Functional | Unit |
+| UI-VIS-02 (Visual Alert for Alarm) | Normal | Blackbox | Functional | Unit |
+| UI-PERF-01 (UI Response Time) | Boundary | Blackbox | Performance | Integration |
+| UI-EDGE-01 (Multiple Accessibility Features Enabled) | Boundary | Blackbox | Functional | Integration |
+| UI-BTN-01 (Button Press Accuracy for Motor Disabilities) | Boundary | Blackbox | Functional | Unit |
+| UI-ERR-01 (Incorrect PIN Entry for Security System) | Abnormal | Blackbox | Functional | Unit |
+| UI-ERR-02 (No Internet Connection Alert) | Abnormal | Blackbox | Functional | Integration |
+
+
