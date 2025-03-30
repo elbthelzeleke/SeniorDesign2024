@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import './SettingsPage.css';
 
 function SettingsPage() {
   const [settings, setSettings] = useState([]);
@@ -50,19 +51,20 @@ function SettingsPage() {
   };
 
   return (
-    <div style={{ padding: 20 }}>
+    <div className="settings-container">
       <h1>Settings (In-Memory)</h1>
-      <form onSubmit={handleSave} style={{ marginBottom: 20 }}>
-        <div>
-          <label>Key: </label>
+      
+      <form className="settings-form" onSubmit={handleSave}>
+        <div className="form-group">
+          <label>Key:</label>
           <input
             value={keyInput}
             onChange={(e) => setKeyInput(e.target.value)}
             required
           />
         </div>
-        <div>
-          <label>Value: </label>
+        <div className="form-group">
+          <label>Value:</label>
           <input
             value={valueInput}
             onChange={(e) => setValueInput(e.target.value)}
@@ -73,10 +75,10 @@ function SettingsPage() {
       </form>
 
       <h2>Existing Settings</h2>
-      <ul>
+      <ul className="settings-list">
         {settings.map((s) => (
           <li key={s.key}>
-            <strong>{s.key}</strong>: {s.value}{' '}
+            <strong>{s.key}</strong>: {s.value}
             <button onClick={() => handleDelete(s.key)}>Delete</button>
           </li>
         ))}
