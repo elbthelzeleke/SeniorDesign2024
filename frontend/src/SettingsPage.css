@@ -1,0 +1,105 @@
+/* SettingsPage.css */
+
+/* Main container */
+.settings-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header */
+.settings-container h1 {
+  color: #2c3e50;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Form styling */
+.settings-form {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+/* Button styling */
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+  margin-top: 0.5rem;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Settings list */
+.settings-list {
+  list-style: none;
+  padding: 0;
+}
+
+.settings-list li {
+  background: white;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.settings-list li button {
+  background-color: #e74c3c;
+  padding: 0.5rem 1rem;
+  margin-top: 0;
+}
+
+.settings-list li button:hover {
+  background-color: #c0392b;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .settings-container {
+    padding: 1rem;
+  }
+  
+  .settings-list li {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .settings-list li button {
+    align-self: flex-end;
+  }
+}
