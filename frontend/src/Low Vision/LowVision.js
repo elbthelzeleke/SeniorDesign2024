@@ -5,6 +5,7 @@ import FrontDoor from "./FrontDoor";
 import Blinds from "./Blinds";
 import Lights from "./Lights";
 import CircularSlider from "./CircularSlider";
+import Button from "./RightButton";
 
 function LowVision() {
   const pageStyle = {
@@ -60,7 +61,7 @@ function LowVision() {
         <CircularSlider/>
         </div>
         <div style={cardStyle}>
-          ...
+         <Button/>
         </div>
       </div>
     </div>

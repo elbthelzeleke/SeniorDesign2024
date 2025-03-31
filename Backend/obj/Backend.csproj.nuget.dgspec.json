@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/elbthel/Desktop/Senior Design/SeniorDesign2024/Backend/Backend.csproj": {}
+    "C:\\Users\\smoha\\OneDrive\\Desktop\\CSDesignProject\\SeniorDesign2024\\Backend\\Backend.csproj": {}
   },
   "projects": {
-    "/Users/elbthel/Desktop/Senior Design/SeniorDesign2024/Backend/Backend.csproj": {
+    "C:\\Users\\smoha\\OneDrive\\Desktop\\CSDesignProject\\SeniorDesign2024\\Backend\\Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/elbthel/Desktop/Senior Design/SeniorDesign2024/Backend/Backend.csproj",
+        "projectUniqueName": "C:\\Users\\smoha\\OneDrive\\Desktop\\CSDesignProject\\SeniorDesign2024\\Backend\\Backend.csproj",
         "projectName": "Backend",
-        "projectPath": "/Users/elbthel/Desktop/Senior Design/SeniorDesign2024/Backend/Backend.csproj",
-        "packagesPath": "/Users/elbthel/.nuget/packages/",
-        "outputPath": "/Users/elbthel/Desktop/Senior Design/SeniorDesign2024/Backend/obj/",
+        "projectPath": "C:\\Users\\smoha\\OneDrive\\Desktop\\CSDesignProject\\SeniorDesign2024\\Backend\\Backend.csproj",
+        "packagesPath": "C:\\Users\\smoha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\smoha\\OneDrive\\Desktop\\CSDesignProject\\SeniorDesign2024\\Backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/elbthel/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\smoha\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -38,7 +38,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -76,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
