@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes, useNavigate } from "react-router-dom";
 import LowVision from "./Low Vision/LowVision";
+import LowHearingLowMobility from "./Low Mobility and Hearing/LowHearingLowMobility"
 
 function Home() {
   const navigate = useNavigate();
@@ -50,7 +51,7 @@ function Home() {
         <div style={lowVisionStyle} onClick={() => navigate("/low-vision")}>
           Low Vision
         </div>
-        <div style={lowMobilityStyle} onClick={() => alert("Low Mobility & Low Hearing selected!")}>
+        <div style={lowMobilityStyle} onClick={() => navigate("/low-hearing-low-mobility")}>
           Low Mobility & Low Hearing
         </div>
       </div>
@@ -64,6 +65,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/low-vision" element={<LowVision />} />
+        <Route path="/low-hearing-low-mobility" element={<LowHearingLowMobility />} /> 
       </Routes>
     </Router>
   );
