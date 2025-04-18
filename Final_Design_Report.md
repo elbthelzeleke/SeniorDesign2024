@@ -22,7 +22,7 @@
 
 ## 1. Project Description
 **Abstract (≤400 characters):**  
-A customizable smart home dashboard that adapts to user accessibility needs, allowing control of devices and routines with an emphasis on inclusive design, voice commands, and visual accessibility.
+A customizable smart home dashboard that adapts to user accessibility needs, allowing control of devices and routines with an emphasis on inclusive design, voice commands, and visual accessibility. The system enables unified control of IoT devices (lights, thermostats, security) and automated routines, with priority given to inclusive design such as screen reader compatibility, reduced-motion options, and one-tap emergency actions. 
 
 **Final Project Description:**  
 Describe final functionality, architecture, and features. Summarize goals and outcomes, including how the project evolved over time.
@@ -30,7 +30,7 @@ Describe final functionality, architecture, and features. Summarize goals and ou
 ---
 
 ## 2. User Interface Specification
-Screenshots are included in the Poster on the Git Hub
+Screenshots are included in the Poster on the GitHub
 ---
 
 ## 3. Test Plan and Results
@@ -59,14 +59,17 @@ Our testing strategy included both **manual testing** and **unit testing**, with
 
 ### Overview
 
-The user manual explains how to operate the smart home interface, including logging in, customizing preferences, managing devices, and setting up routines. I is included in the Git Hub
+The user manual explains how to operate the smart home interface, including logging in (account creation and secure login procedures and connecting to your home network), customizing preferences (adjusting visual settings, configuring voice command preferences, and creating and managing user profiles), managing devices (adding and removing smart devices, organizing devices by room or function, and troubleshooting connection issues), and setting up routines (editing and deleting existing automation and setting up emergency protocols). Available in our GitHub repository.
 
 ---
 
 ### Frequently Asked Questions (FAQ)
 EG.
-> **Q: What if a device doesn't respond?**  
+> **Q: What should I do if a smart device isn't responding in the app?**  
 **A:** The device will show an "offline" status. Please check your network connection or restart the smart device. The dashboard attempts auto-refresh every 30 seconds.
+
+> **Q: How do I make the interface easier to use with my screen reader?**  
+**A:** We offer multiple accessibility enhancements such as enable "Screen Reader Mode" in Settings > Accessibility.
 
 ---
 
@@ -93,8 +96,9 @@ EG.
 
 ## 9. Summary of Expenses
 
-| Item                    | Cost     | Donated By             |
-|-------------------------|----------|------------------------|
-| GitHub                  | $0       | GitHub                 |
-| VS Code                 | $0       | Microsoft              |
+| Item                    | Cost     | Donated By             | Purpose                              |
+|-------------------------|----------|------------------------|--------------------------------------|  
+| GitHub                  | $0       | GitHub                 | Code repository & project management |
+| VS Code                 | $0       | Microsoft              | Primary development IDE              |
+| Figma                   | $0       | Figma Education License| UI/UX design & prototyping           |
 
